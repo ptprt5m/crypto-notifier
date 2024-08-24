@@ -1,2 +1,3 @@
-const config = require('./config.js');
-const bot = new TelegramBot(config.telegramToken, { polling: false });
+require('dotenv').config();
+
+const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: false });
