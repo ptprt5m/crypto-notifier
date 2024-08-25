@@ -49,8 +49,8 @@ TON_NOT_AlertsBot helps monitor price changes for the cryptocurrencies TON (The 
 
 To run the bot, use the following command:
 
-````bash
-node index.js
+    ````bash
+    node index.js
 
 ## Example Messages
 
@@ -87,4 +87,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 -   **CoinGecko API** for cryptocurrency price data.
 -   **node-telegram-bot-api** for Telegram bot integration.
 -   **node-fetch** for making HTTP requests.
-````
