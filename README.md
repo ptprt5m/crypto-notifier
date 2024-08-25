@@ -21,18 +21,26 @@ TON_NOT_AlertsBot helps monitor price changes for the cryptocurrencies TON (The 
     ```bash
     git clone https://github.com/your-username/crypto-notifier.git
     cd crypto-notifier
-
     ```
 
 2. **Install dependencies:**
 
     ```bash
     npm install
-
     ```
 
-3. **Configure the `.env` file:**
-   Create a `.env` file in the root directory of the project and add your sensitive data:
+3. **Build the project:**
+
+    Compile TypeScript files to JavaScript:
+
+    ```bash
+    npm run build
+    ```
+
+4. **Configure the `.env` file:**
+
+    Create a `.env` file in the root directory of the project and add your sensitive data:
+
     ```env
     TELEGRAM_TOKEN=your_telegram_bot_token
     CHAT_ID=your_chat_id
@@ -40,17 +48,18 @@ TON_NOT_AlertsBot helps monitor price changes for the cryptocurrencies TON (The 
     NOT_AMOUNT=your_not_amount
     ```
 
--   TELEGRAM_TOKEN: Your Telegram bot token.
--   CHAT_ID: The chat ID where the bot will send messages.
--   TON_AMOUNT: The amount of TON coins you hold.
--   NOT_AMOUNT: The amount of NOT coins you hold.
+    - `TELEGRAM_TOKEN`: Your Telegram bot token.
+    - `CHAT_ID`: The chat ID where the bot will send messages.
+    - `TON_AMOUNT`: The amount of TON coins you hold.
+    - `NOT_AMOUNT`: The amount of NOT coins you hold.
 
 ## Running the Bot
 
 To run the bot, use the following command:
 
-    ````bash
-    node index.js
+    ```bash
+    npm start
+    ```
 
 ## Example Messages
 
