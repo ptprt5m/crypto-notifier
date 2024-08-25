@@ -57,9 +57,7 @@ TON_NOT_AlertsBot helps monitor price changes for the cryptocurrencies TON (The 
 
 To run the bot, use the following command:
 
-    ```bash
     npm start
-    ```
 
 ## Example Messages
 
