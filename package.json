@@ -21,7 +21,7 @@
         "nodemailer": "^6.9.14"
     },
     "devDependencies": {
-        "@types/node": "^22.5.0",
+        "@types/node": "^22.7.4",
         "@types/node-schedule": "^2.1.7",
         "@types/node-telegram-bot-api": "^0.64.7",
         "prettier": "^3.3.3",
